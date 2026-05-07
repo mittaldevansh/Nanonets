@@ -1,4 +1,4 @@
-# 📄 Nanonets Bill Parser & OCR Automation
+# 📄 Nanonets
 
 An AI-powered document processing solution built using **Nanonets OCR**. This project demonstrates the automated extraction of data from unstructured billing documents and invoices, converting them into actionable structured data.
 
