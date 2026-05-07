@@ -13,25 +13,41 @@ An AI-powered document processing solution built using **Nanonets OCR**. This pr
 
 ---
 
-## 📸 Process Showcase
+## 📸 Project Showcase
 
-### 1. Automated Data Extraction
-The model identifies and extracts critical information from the uploaded bills. Below are the steps and queries handled by the AI:
-
-| Question 1 & 2 | Question 3 & 4 |
-|---|---|
-| <img src="https://github.com/mittaldevansh/Nanonets/blob/main/Question_1.jpeg" width="400"> | <img src="https://github.com/mittaldevansh/Nanonets/blob/main/Question_3.jpeg" width="400"> |
-| <img src="https://github.com/mittaldevansh/Nanonets/blob/main/Question_2.jpeg" width="400"> | <img src="https://github.com/mittaldevansh/Nanonets/blob/main/Question_4.jpeg" width="400"> |
-
-### 2. Complex Query Handling
-The AI is trained to answer specific questions based on the document's text logic.
-<img src="https://github.com/mittaldevansh/Nanonets/blob/main/Question_5.jpeg" width="800" alt="Final Question">
+### 1. Initial Data Extraction (Key Fields)
+The first step involves identifying and extracting key fields such as dates, amounts, and vendor names from the raw document.
+<img src="https://github.com/mittaldevansh/Nanonets/blob/main/Question_1.jpeg" width="700" alt="Extraction Step 1" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 
 ---
 
-### 3. Data Transformation (Export to Excel)
-Once the extraction is complete, the data is seamlessly converted into a structured Excel format for accounting and record-keeping.
-<img src="https://github.com/mittaldevansh/Nanonets/blob/main/Convert%20to%20excel.jpeg">
+### 2. Contextual Field Validation
+The AI confirms and validates secondary fields like invoice numbers and specific line items.
+<img src="https://github.com/mittaldevansh/Nanonets/blob/main/Question_2.jpeg" width="700" alt="Extraction Step 2" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+
+---
+
+### 3. Verification of Amounts & Dates
+Ensuring accuracy in the total amounts, due dates, and tax breakdown.
+<img src="https://github.com/mittaldevansh/Nanonets/blob/main/Question_3.jpeg" width="700" alt="Extraction Step 3" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+
+---
+
+### 4. Processing Specific Queries
+Handling custom queries relevant to the specific type of bill or industry standards.
+<img src="https://github.com/mittaldevansh/Nanonets/blob/main/Question_4.jpeg" width="700" alt="Extraction Step 4" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+
+---
+
+### 5. Deep Learning Final Validation
+A final comprehensive review by the AI to reconcile all extracted data before finalizing the output.
+<img src="https://github.com/mittaldevansh/Nanonets/blob/main/Question_5.jpeg" width="700" alt="Extraction Step 5" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+
+---
+
+### 6. Data Transformation (Export to Excel)
+The final unstructured image data is converted into a structured Excel (.xlsx) format for easy auditing and integration.
+<img src="https://github.com/mittaldevansh/Nanonets/blob/main/Convert%20to%20excel.jpeg" width="700" alt="Excel Output" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 
 ---
 
